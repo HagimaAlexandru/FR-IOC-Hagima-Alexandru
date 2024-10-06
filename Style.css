@@ -1,0 +1,105 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: white; 
+    color: #333 ;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: aquamarine;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    background-color: blue;
+    overflow: hidden;
+}
+
+nav a{
+    float: left;
+    display: block;
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+}
+nave a:hover{
+    background-color: beige;
+    color: black;
+}
+        
+-principal{
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+}
+
+-principal h4{
+    font-size: 25px;
+    font-family: 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+-principal p{
+    font-size: 18px;
+    color: red;
+}
+
+-principal img{
+    max-width: 150px;
+    height: auto;
+    margin-right: 10px;
+}
+
+button{
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+button:hover{
+    background-color: blue;
+    color: white;
+}
+
+footer{
+    text-align: center;
+    padding: 10px 8px;
+    color: white;
+    background-color: #333;
+}
+
+#liste{
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+table{
+    width: 10px;
+    border-collapse: collapse;
+}
+
+th,td{
+    padding: 10px;
+    text-align: center;
+    border: solid rgb(95, 95, 95);
+}
+
+th{
+    background-color: rgb(175, 175, 175);
+}
+
+img{
+    margin-right: 100px;
+}
